@@ -136,4 +136,23 @@ hr {
     color: #1a3c6d;
 
 }
+.fifth-section{
+  background: #3f5e88;
+}
+.fifth-section-card{
+  background: #4d6a91;
+}
+.get-started-btn{
+  background: white;
+  color:#4d6a91 ;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+.learn-more-btn{
+  color: white;
+  background: transparent;
+   padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
 
