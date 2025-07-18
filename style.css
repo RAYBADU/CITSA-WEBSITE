@@ -1,3 +1,19 @@
+header {
+  background-color: #1a3c6d;
+  height: 6vh;
+}
+@media (max-width: 480px) {
+  .header-text {
+    font-size: small;
+    padding-top: 1.5rem;
+    padding-bottom: 0.4rem;
+  }
+}
+
+nav {
+  height: 7vh;
+}
+
 nav {
   align-content: center;
   background-color: white;
@@ -121,38 +137,33 @@ hr {
   display: inline-block;
 }
 
-@media (min-width:768px) {
-  .stat-div{
-  width: 50vw;
-  margin: 0 auto;
+@media (min-width: 768px) {
+  .stat-div {
+    width: 50vw;
+    margin: 0 auto;
+  }
 }
-
-}
-.programme-details-btn{
+.programme-details-btn {
   background: #1a3c6d;
-  
 }
-.programme-title{
-    color: #1a3c6d;
-
+.programme-title {
+  color: #1a3c6d;
 }
-.fifth-section{
+.fifth-section {
   background: #3f5e88;
 }
-.fifth-section-card{
+.fifth-section-card {
   background: #4d6a91;
 }
-.get-started-btn{
+.get-started-btn {
   background: white;
-  color:#4d6a91 ;
+  color: #4d6a91;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
 }
-.learn-more-btn{
+.learn-more-btn {
   color: white;
   background: transparent;
-   padding: 0.5rem 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 0.5rem;
 }
-
-
