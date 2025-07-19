@@ -11,7 +11,7 @@ header {
 }
 
 nav {
-  height: 7vh;
+  height: 8vh;
 }
 
 nav {
@@ -30,6 +30,14 @@ span {
   color: white;
   padding: 0.2rem 1rem;
   border-radius: 5px;
+  border: 0;
+  position: relative;
+  left: 40px;
+  margin:5px auto;
+
+}
+.login-btn:active{
+  transition: ease-in-out(0.2s);
 }
 .orientation-image {
   position: relative;
@@ -166,4 +174,20 @@ hr {
   background: transparent;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
+}
+.navbar-toggler-icon{
+  background-color: aliceblue;
+}
+.show{
+  margin-top: 20px;
+  margin-left: 200px;
+  color: black;
+  width: 50px;
+  background-color:rgb(240,248,255,0.5);
+  position: relative;
+  z-index: 1000;
+  top: 20px;
+}
+.nav-item{
+  margin:0 auto;
 }
