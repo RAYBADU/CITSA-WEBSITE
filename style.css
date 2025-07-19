@@ -175,19 +175,18 @@ hr {
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
 }
-.navbar-toggler-icon{
-  background-color: aliceblue;
+.nav-item{
+  margin:0 auto;
 }
-.show{
-  margin-top: 20px;
+.col-md .card img{
+  height: 50vh;
+}
+@media (max-width:720px) {
+  .navbar-collapse{
+  /* margin-top: 20px; */
   margin-left: 200px;
   color: black;
   width: 50px;
   background-color:rgb(240,248,255,0.5);
-  position: relative;
-  z-index: 1000;
-  top: 20px;
 }
-.nav-item{
-  margin:0 auto;
 }
