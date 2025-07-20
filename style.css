@@ -198,3 +198,26 @@ hr {
   background-color:rgb(240,248,255,0.5);
 }
 }
+.card{
+  transition: transform 0.3s ease-in-out; 
+}
+/* Hovering Cards */
+@media (min-width: 768px) {
+  .card:hover{
+    cursor: pointer;
+transform: scale(1.05);
+transition: transform 0.15s ease-in-out;
+  }
+  }
+
+.btn-primary {
+  color: white;
+  background: #1a3c6d;
+}
+
+  footer{
+  background-color: #1a3c6d;
+  }
+  .bi-facebook,.bi-instagram,.bi-twitter-x{
+    font-size: 1.4rem;
+  }
