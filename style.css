@@ -2,6 +2,9 @@ header {
   background-color: #1a3c6d;
   height: 6vh;
 }
+a{
+  text-decoration: none;
+}
 @media (max-width: 480px) {
   .header-text {
     font-size: small;
@@ -17,7 +20,7 @@ nav {
 nav {
   align-content: center;
   background-color: white;
-  box-shadow: 1px 1px 3px black;
+  box-shadow: 0 2px 12px rgba(26, 60, 109, 0.15);
 }
 .logo-text {
   display: inline;
@@ -122,7 +125,6 @@ hr {
   width: 99%;
   height: 100%;
   top: 0;
-
   background: #1a3d6d3d;
 }
 .hod-btn {
@@ -167,3 +169,33 @@ hr {
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
 }
+.card{
+  transition: transform 0.3s ease-in-out; 
+}
+
+/* Hovering Cards */
+@media (min-width: 768px) {
+  .card:hover{
+    cursor: pointer;
+transform: scale(1.05);
+transition: transform 0.15s ease-in-out;
+  }
+  }
+
+.btn-primary {
+  color: white;
+  background: #1a3c6d;
+}
+
+
+
+
+
+  footer{
+  background-color: #1a3c6d;
+  }
+  .bi-facebook,.bi-instagram,.bi-twitter-x{
+    font-size: 1.4rem;
+  }
+ 
+
