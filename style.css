@@ -17,7 +17,7 @@ nav {
 nav {
   align-content: center;
   background-color: white;
-  box-shadow: 1px 1px 3px black;
+  box-shadow: 0 4px 16px rgba(26, 60, 109, 0.18), 0 1.5px 8px rgba(0,0,0,0.08);
 }
 .logo-text {
   display: inline;
@@ -220,4 +220,7 @@ transition: transform 0.15s ease-in-out;
   }
   .bi-facebook,.bi-instagram,.bi-twitter-x{
     font-size: 1.4rem;
+  }
+  a{
+    text-decoration: none;
   }
