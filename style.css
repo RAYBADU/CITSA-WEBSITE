@@ -214,9 +214,8 @@ transition: transform 0.15s ease-in-out;
   color: white;
   background: #1a3c6d;
 }
-
-  footer{
-  background-color: #1a3c6d;
+footer{
+background-color: #1a3c6d;
   }
   .bi-facebook,.bi-instagram,.bi-twitter-x{
     font-size: 1.4rem;
